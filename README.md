@@ -1,7 +1,11 @@
 # Subnetting
-Used network subnetting concepts and build a small cisco packet tracer project.
-An IP is provided 200.10.10.0/24. 
-The task was to do subnetting and create 6 new networks for inter routing connection through cloud using sub-interfaces.
-There are 3 routers having 2 sub-interface each with two different networks.
-Each router is conected to 3 PCs via switch having different network.
-Used RIP(Routing Information Protocol), an interior gateway protocol (IGP) that uses a distance-vector algorithm to determine the best route for data packets to travel through a network.
+# Cisco Packet Tracer Subnetting & RIP Routing Project
+Designed and simulated a routed network in Cisco Packet Tracer using IP range 200.10.10.0/24, divided into 6 subnets for efficient inter-router communication.
+
+-Configured 3 routers, each with 2 sub-interfaces, connected through a cloud router using serial connections.
+
+-Each router connected to a switch with 3 PCs, each on a separate subnet (e.g., 200.10.10.96, 200.10.10.128, 200.10.10.160).
+
+-Implemented RIP (Routing Information Protocol) for dynamic route sharing across subnets using a distance-vector algorithm.
+
+-Applied networking concepts including subnetting, VLSM, and switch/router configuration.
